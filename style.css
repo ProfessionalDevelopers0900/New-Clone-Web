@@ -22,7 +22,8 @@
     font-family: neu;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
@@ -618,7 +619,7 @@ nav h3 {
 
 }
 
-#loader{
+#loader {
     height: 100%;
     width: 100%;
     background-color: #000;
@@ -631,10 +632,10 @@ nav h3 {
     justify-content: center;
 }
 
-#loader h1{
+#loader h1 {
     font-size: 4vw;
     color: transparent;
-    background: linear-gradient(to right,orange,orangered);
+    background: linear-gradient(to right, orange, orangered);
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
@@ -643,36 +644,41 @@ nav h3 {
     animation-delay: 1s;
     animation-timing-function: linear;
 }
-#loader h1:nth-child(2){
+
+#loader h1:nth-child(2) {
     animation-delay: 2s;
 }
-#loader h1:nth-child(3){
+
+#loader h1:nth-child(3) {
     animation-delay: 3s;
 }
 
 @keyframes load {
-    0%{
+    0% {
         opacity: 0;
     }
-    10%{
+
+    10% {
         opacity: 1;
     }
-    90%{
+
+    90% {
         opacity: 1;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
 
 @media (max-width:600px) {
-    #loader h1{
+    #loader h1 {
         font-size: 9vw;
-      
+
     }
 }
 
-#COPY{
+#COPY {
     height: 120px;
     width: 100%;
     display: flex;
@@ -680,7 +686,7 @@ nav h3 {
     padding: 0 2vh;
 }
 
-#curcle{
+#curcle {
     height: 13px;
     width: 13px;
     background-color: #FE320A;
@@ -689,7 +695,7 @@ nav h3 {
 
 }
 
-#COPY h6{
+#COPY h6 {
     opacity: 50%;
     font-weight: 400;
     font-size: medium;
@@ -766,9 +772,9 @@ nav h3 {
 
 #heading {
     width: 45%;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .gs-1 {
@@ -797,7 +803,7 @@ nav h3 {
 #m-1 {
     color: #efeae3;
     background-color: transparent;
-    margin-top: 2.5em;    
+    margin-top: 2.5em;
 }
 
 
@@ -832,7 +838,7 @@ nav h3 {
     object-fit: cover;
 }
 
-#pak{
+#pak {
     height: 60px;
     width: 100%;
     display: flex;
@@ -840,7 +846,7 @@ nav h3 {
     padding: 0 2vh;
 }
 
-#ind{
+#ind {
     height: 13px;
     width: 13px;
     background-color: #FE320A;
@@ -849,7 +855,7 @@ nav h3 {
 
 }
 
-#pak h6{
+#pak h6 {
     opacity: 50%;
     font-weight: 400;
     font-size: medium;
@@ -857,6 +863,20 @@ nav h3 {
     font-weight: 100;
 }
 
-#papa{
+#papa {
     background-color: #EFEAE3;
+}
+
+
+.footer_links_wrapper {
+    width: 100%;
+    display: flex;
+    gap: 17vw;
+    align-items: center;
+}
+
+
+#footer-div {
+    z-index: 9;
+    font-size: x-large;
 }
